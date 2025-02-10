@@ -33,8 +33,8 @@ class InventoryApp(QWidget):
         self.table.setHorizontalHeaderLabels(["ID", "Name", "Quantity"])
         self.table.horizontalHeader().setSectionResizeMode(QHeaderView.Stretch)
         self.table.setStyleSheet(
-            "background-color: #3E3E3E; color: white; font-size: 14px;"
-            "border: 1px solid #00E676;"
+            "background-color: white; color: black; font-size: 14px;"
+            "border: 1px solid #00E676; font-weight: bold;"
         )
         self.layout.addWidget(self.table)
 
